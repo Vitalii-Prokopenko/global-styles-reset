@@ -1,0 +1,39 @@
+/* Global styles reset with classes */
+
+.paragraph ,
+.heading-first,
+.heading-second,
+.heading-third,
+.heading-fourth,
+.heading-fifth,
+.heading-sixth {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.address {
+  font-style: normal;
+}
+
+.image {
+  display: block;
+  max-height: 100%;
+}
+
+.link {
+  display: block;
+
+  text-decoration: none;
+  color: inherit;
+}
