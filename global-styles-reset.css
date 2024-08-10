@@ -1,5 +1,6 @@
-/* Global styles reset */
+/* == GLOBAL STYLES RESET == */
 
+/* headings and paragraphs */
 p,
 h1,
 h2,
@@ -11,6 +12,7 @@ h6 {
   margin-bottom: 0;
 }
 
+/* ul */
 ul {
   list-style: none;
   margin-top: 0;
@@ -18,22 +20,32 @@ ul {
   padding-left: 0;
 }
 
+/* button */
 button {
   cursor: pointer;
 }
 
+/* address */ 
 address {
   font-style: normal;
 }
 
+/* responsive images */
 img {
   display: block;
-  max-height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
+/* a */
 a {
   display: block;
-
   text-decoration: none;
   color: inherit;
+}
+
+/* inputs */
+input,
+textarea {
+  outline: none;
 }
